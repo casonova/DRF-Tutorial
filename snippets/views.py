@@ -1,7 +1,7 @@
-from snippets.models import Snippet
-from snippets.serializers import SnippetSerializer
 from rest_framework import generics
 
+from snippets.models import Snippet
+from snippets.serializers import SnippetSerializer
 
 
 class SnippetList(generics.ListCreateAPIView):
